@@ -6,6 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', Login.as_view(), name='login'),
     path('logout/', Logout.as_view(), name='logout'),
-    path('', include('tasks.api.urls')),
+    path('', include('tasks.api.routers')),
     path('', include('users.api.routers'))
 ]

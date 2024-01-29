@@ -107,7 +107,7 @@ USE_TZ = True
 
 AUTH_USER_MODEL = 'users.User'
 
-# AUTH_USER_MODEL = 'users.User'
+TOKEN_EXPIRED_AFTER_SECONDS = 20
 
 STATIC_URL = 'static/'
 
